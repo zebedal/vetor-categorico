@@ -1,0 +1,41 @@
+.flex  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: -20px;
+}
+.flex > * {
+    margin: 20px;
+}
+.flex > div{
+    /* flex: 1 375px; */
+}
+.Strong {
+    font-weight: 100;
+}
+.flex >div:nth-child(1) > * {
+    margin-top: 10px;
+}
+.contact {
+    font-size: 16px;
+}
+.contact > span {
+    font-family: lato-bold;
+}
+.flex h5 {
+    font-size: 20px;
+    color: var(--title-color);
+    font-weight: 400;
+}
+@media(max-width:750px) {
+    .flex {
+        flex-wrap: wrap;
+    }
+    .flex > div:nth-child(1) {
+        text-align: center;
+    }
+    .flex > div {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}

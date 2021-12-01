@@ -1,0 +1,80 @@
+.wrapper {
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: 0;
+    padding: 15px 0;
+    z-index: 99;
+    background: white;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: -15px;
+}
+.navigation > a, .navLink {
+    margin-left: 15px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: calc(14px + (16 - 14) * (100vw - 400px) / (1680 - 450));
+    position: relative;
+    cursor: pointer;
+    padding: 0 0 10px 0;
+    transition: color .5s;
+}
+.navigation > a:hover, .navLink:hover {
+    color: var(--blue);
+} 
+.navLink:hover svg path{
+    fill: var(--blue);
+} 
+.navLink:hover > .subMenu {
+    opacity: 1;
+    pointer-events: all;
+}
+.subMenu {
+    position: absolute;
+    top: 28px;
+    left: 0;
+    background: white;
+    padding:20px 25px 20px 25px ;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .5s;
+    box-shadow: 4px 4px 14px rgba(0,0,0, .3);
+    border-radius: 5px;
+}
+
+.subMenu > a {
+    white-space: nowrap;
+   text-decoration: none;
+   font-size: 14px;
+   color: var(--text-color);
+   display: block;
+   transition: color .5s;
+}
+.subMenu > a:hover {
+    color: var(--blue);
+}
+.subMenu > a:not(:nth-child(1)) {
+    margin-top: 10px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.social {
+    display: flex;
+    align-items: center;
+    padding: 0 0 10px 0;
+}
+@media(max-width:550px) {
+    .navigation {
+        display: none;
+    } 
+}

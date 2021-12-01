@@ -1,0 +1,49 @@
+.Header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    z-index: 99;
+    background: white;
+}
+.Header > div {
+    padding: 15px 10px;
+}
+
+.topContacts {
+    background: #1a1a1a;
+    color: white;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex > div > span:nth-child(1) {
+    margin-right: 50px;
+}
+.flex > div > span:nth-child(1) > svg {
+    vertical-align: text-bottom;
+}
+.telefone {
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: middle;
+}
+.telefone > span {
+    font-size: calc(12px + (24 - 12) * (100vw - 400px) / (1680 - 450));
+    color: var(--blue);
+}
+.telefone > span:nth-child(1) {
+    font-family: lato-light;
+}
+.telefone > span:nth-child(2) {
+    font-family: lato-bold;
+}
+@media(max-width:600px) {
+    .telefone{
+        display: none;
+    }
+    .topContacts {
+        display: none;
+    }
+}

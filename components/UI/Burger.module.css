@@ -1,0 +1,19 @@
+.Burger {
+    height: auto;
+    cursor: pointer;
+    display: none;
+}
+.line {
+display: block;
+width: 25px;
+height: 2px;
+background: var(--text-color);
+}
+.line:not(:nth-child(1)) {
+    margin-top: 5px;
+}
+@media(max-width:550px) {
+    .Burger {
+        display: flex;
+    }
+}

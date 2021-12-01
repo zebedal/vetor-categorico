@@ -1,0 +1,30 @@
+.wrapper {
+    background: var(--blue);
+    align-items: center;
+    padding: 70px 0;
+}
+.wrapper h2 {
+    font-family: lato-bold;
+    color: white;
+}
+.wrapper h2 span{
+    font-family: lato-light;
+    font-weight: 100;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: -20px;
+}
+.flex > * {
+    margin: 20px;
+}
+@media(max-width: 950px) {
+    .flex{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}

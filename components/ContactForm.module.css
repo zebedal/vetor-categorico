@@ -1,0 +1,72 @@
+.FormWrapper {
+    max-width: 500px;
+    height: auto;
+    background: white;
+    box-shadow: 4px 4px 15px rgb(0 0 0 / 30%);
+    padding: 50px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.FormWrapper h4 {
+    font-size: 20px;
+}
+.FormWrapper.absolute {
+    position: absolute;
+    top: -180px;
+    left: 100px;
+    max-width: 500px;
+}
+.FormWrapper input::placeholder,
+.FormWrapper textarea::placeholder,
+.FormWrapper select {
+    color: var(--dark-green);
+}
+.FormWrapper input:focus::placeholder,
+.FormWrapper textarea:focus::placeholder {
+    color: transparent;
+}
+.FormWrapper input {
+    background: rgb(247, 247, 247);
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(0 0 0 / 10%);
+    width: 100%;
+    margin-top: 20px;
+    outline: none;
+    font-family: lato-regular;
+}
+
+.FormWrapper input:not(:focus):not(:placeholder-shown):invalid {
+    border: 1px solid red;
+}
+
+.FormWrapper textarea {
+    background: rgb(247, 247, 247);
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(0 0 0 / 10%);
+    width: 100%;
+    margin-top: 20px;
+    outline: none;
+    font-family: lato-regular;
+    resize: none;
+}
+.FormWrapper form label {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+.FormWrapper button {
+    background: var(--blue);
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 30px;
+    display: inline-block;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+

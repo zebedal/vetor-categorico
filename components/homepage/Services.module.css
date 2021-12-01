@@ -1,0 +1,54 @@
+.flex {
+    display: flex;
+}
+.serviceBox {
+    padding: 50px;
+    flex: 1 450px;
+}
+.serviceBox p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.serviceBox:nth-child(1) {
+    background: #1a1a1a;
+    color: white;
+}
+.serviceBox:nth-child(2) {
+    background: var(--blue);
+    color: white;
+}
+.serviceBox:nth-child(1) h2, .serviceBox:nth-child(2) h2 {
+    color: white !important;
+}
+ 
+.serviceBox:nth-child(3) {
+    background: rgb(231, 231, 231);
+}
+.serviceBox h2 {
+    font-size: calc(30px + (42 - 30) * (100vw - 400px) / (1680 - 450));;
+}
+.serviceBox ul {
+    list-style: none;
+}
+.serviceBox ul li {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: lato-bold;
+    color: rgb(211, 211, 211);
+}
+.serviceBox:nth-child(2) ul li {
+    color: white;
+}
+.serviceBox:nth-child(3) ul li {
+    color: var(--text-color);
+}
+@media(max-width: 750px) {
+    .flex {
+        flex-wrap: wrap;
+    }
+}
+@media(max-width:450px) {
+    .serviceBox {
+        padding: 30px;
+    }
+}
