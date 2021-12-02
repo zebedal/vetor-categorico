@@ -15,8 +15,12 @@ const QuemSomos = props => (
                 <br />
                 <br />
                 <p>
-                    Et nostrud proident proident minim in qui qui qui nulla sint ad ad exercitation tempor. Consectetur tempor laborum ipsum ullamco sint in do irure in. Sunt officia cupidatat pariatur qui esse duis excepteur adipisicing ullamco. Exercitation nisi ex nostrud aliqua et.
+            Somos uma entidade Formadora acreditada pela DGERT para ministrar formação profissional e autorizada pela DN/PSP - Direção Nacional da Polícia de Segurança Pública, com a Autorização nº 52, para ministrar formação na área da Segurança Privada área 861 – Proteção de pessoas e bens.
+            Tem presentemente delegações em <b>Vila do Conde</b>, <b>Santiago do Cacém</b>, <b>Leiria</b> e <b>Entroncamento</b>.
                 </p>
+                <br/>
+                <p style={{fontStyle:'italic'}}>	&quot;Nós os profissionais de segurança privada não queremos ser apenas qualificados e treinados, queremos ser sim os melhores no que fazemos	&quot;</p>
+            <p style={{fontSize:'22px', fontWeight:'bold'}}>Paulo Mello</p>
                 <br />
                 <br />
                 <Button text="Sobre nós" route="/sobre" />

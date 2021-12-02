@@ -9,17 +9,16 @@ const Back = props => (
     <div className={styles.wrapper}>
         <Image src={back} layout="fill" objectFit="cover" alt="coaching"/>
         <div className={`container ${styles.flex}`}>
-
             <div className={styles.box}>
                 <Calendar />
-                <div>20+</div>
+                <div>10+</div>
                 <p>Anos de experiência</p>
             </div>
 
             <div className={styles.box}>
                 <Therapy />
                 <div>10+</div>
-                <p>Várias especialidades</p>
+                <p>Vários cursos</p>
             </div>
 
             <div className={styles.box}>
@@ -27,9 +26,6 @@ const Back = props => (
                 <div>500+</div>
                 <p>Clientes satisfeitos</p>
             </div>
-
-
-
         </div>
     </div>
 )
