@@ -41,7 +41,7 @@ const MobileNavigation = ({ show, toggleSidebar }) => {
                             <Link href="/vigilante-protecao-pessoal">Vigilante de Proteção Pessoal e Acompanhamento Pessoal</Link>
                         </ul>}
                     </div>
-
+                    <Link href="/media">Media</Link>
                     <Link href="/contactos">Contactos</Link>
                 </div>
 

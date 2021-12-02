@@ -12,23 +12,24 @@ const Sobre = props => (
             <div className={styles.curvedWrapper}>
                 <Image src="/assets/img/jose_small.jpg" width={400} height={400} layout="fixed" alt="jose vaz quintino" />
                 <div>
-                    <h2>Olá, sou o Dr. <span>José Vaz Quintino</span></h2>
+                    <h2>Olá, somos a <span>Vetor Categórico</span></h2>
                     <br />
                     <br />
-                    <p>Possuidor de uma licenciatura e Mestrado em Psicologia pelo Instituto Universitário de Ciências Psicológicas, Sociais e da Vida (ISPA)</p>
+                    <p>Somos um Centro de Formação criado no ano de 2019 no Montijo, possuidores de Certificação DGERT e com autorização da DN PSP número 52, para a formação na área de Segurança Privada.</p>
                     <br />
-                    <p>Tem assumido cargos de Direção Comercial, Marketing e Comunicação, Direção de Unidades de Negócio, assim como funções de Partner, em  Empresas de Consultoria de Recursos Humanos desde 2001;</p>
+                    <p>O nosso objetivo é formar profissionais capacitados e com todos os conhecimentos necessários para que possam exercer a sua profissão com a dignidade e brio que a mesma necessita.</p>
                     <br />
-                    <p>Docente Universitário em Universidades Públicas e Privadas, nas vertentes de Consultoria e Gestão de Recursos Humanos.</p>
+                    <p>Queremos contribuir para que a imagem da profissão de Segurança Privada seja uma imagem de profissionalismo, rigor e empenho..</p>
                     <br />
                     <h3>Missão</h3>
                     <br />
-                    <p>A Psicohelp foi criada com a missão de colocar à disposição dos seus clientes, um leque de serviços diversificado nas áreas da Psicologia, Saúde e Recursos Humanos, contemplado vertentes como a Psicologia Clinica, a Psicoterapia, a Orientação Escolar/Vocacional e o Desenvolvimento Pessoal e Profissional.
+                    <p>A VETOR CATEGÓRICO surge pela emergente necessidade de formar profissionais de segurança privada competentes e especializados em diversas áreas de atuação, fornecendo-lhes instrumentos e competências necessárias para se distinguirem no mercado de trabalho cada vez mais exigente e competitivo..
                     </p>
                     <br />
                     <p>
-                        Temos como objetivo principal, contribuir através dos nossos serviços, para a obtenção de um ajustado equilíbrio entre as vertentes pessoal, familiar, social e profissional dos nossos clientes, obtendo assim um maior bem estar físico e psicológico, traduzido no alcançar de metas e objetivos (pessoais e profissionais). A nossa equipa, conta com profissionais com experiência alargada em diversas vertentes da psicologia e saúde.
+                    Através da nossa rede de centros de formação de segurança privada, preparamos os melhores profissionais no cumprimento da legislação em vigor, dotando-os das competências necessárias e fundamentais ao exercício da atividade de segurança e vigilância privada.
                     </p>
+                    <p>Através de formação obrigatória e complementar pretendemos ser a referência da formação nesta área, sendo que para alcançar esse objetivo, contamos com um grupo de formadores altamente qualificados e com uma vasta experiência profissional quer na área da formação profissional quer no setor da Segurança Privada em Portugal.</p>
                 </div>
             </div>
         </div>

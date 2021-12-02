@@ -34,6 +34,7 @@ const Navigation = ({toggle}) => {
                             </div>
                         </div>
                     </Link>
+                    <Link href="/media">Media</Link>
                     <Link href="/contactos">Contactos</Link>
                 </nav>
                 <div className={styles.social}>

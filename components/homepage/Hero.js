@@ -10,7 +10,7 @@ const Hero = props => (
 
             <div className={styles.content}>
                 <p style={{color:'white'}}>Somos formadores certificados</p>
-                <h2><span>A promover</span> formação certificada</h2>
+                <h2><span>Tua formação</span> a nossa segurança</h2>
                 <br />
                 <br />
                 <div className={styles.flex}>

@@ -30,11 +30,11 @@ const Oferta = ({background='var(--grey)'}) => (
 
                 <div className={styles.card}>
                     <div className={styles.imgWrapper}>
-                        <Image src="/assets/img/pessoal.jpg" layout="fill" objectFit="cover" alt="terapia de casais barreiro" />
+                        <Image src="/assets/img/espectaculo.jpg" layout="fill" objectFit="cover" alt="terapia de casais barreiro" />
                     </div>
                     <br />
-                    <h4>Proteção e Acompanhamento Pessoal</h4>
-                    <p>Formação de vigilante de Proteção Pessoal e Acompanhamento Pessoal</p>
+                    <h4>Assistente de Recinto de Espectáculos</h4>
+                    <p>Habilita ao exercício da especialidade de assistente de Recinto de Espetáculos.</p>
                     <br />
                     <div className={styles.linkFlex}>
                         <Link href="/vigilante-protecao-pessoal">Saber mais</Link>&nbsp;&nbsp;
