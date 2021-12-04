@@ -33,7 +33,7 @@ const Header = ({toggleMobile}) => {
             <div className={`container ${styles.flex}`}>
             <Link href="/" passHref><a href="#"><Image src="/assets/img/logo.png" alt="vetor categorico" width="120" height="50" /></a></Link>
                 <div >
-                    <div className={styles.telefone}><span>Ligar:</span><span>&nbsp;917 641 225</span></div>
+                    <div className={styles.telefone}><span>Ligar:</span><span>&nbsp;939 163 067</span></div>
                     <Button text={isMobile ? "Marcar" : "Marcar Consulta"} route="/contactos" />
                 </div>
             </div>

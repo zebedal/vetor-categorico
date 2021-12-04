@@ -7,7 +7,7 @@ const MarcarConsulta = props => (
         <Container>
             <div className={styles.flex}>
                 <div>
-                    <h2><span>Marque já a sua visita!</span> Ligue: 917 641 225</h2>
+                    <h2><span>Marque já a sua visita!</span> Ligue: 939 163 067</h2>
                     <strong style={{ color: 'white', fontWeight: 100 }}>Somos um grupo de profissionais com experiência alargada em formação e vigilância</strong>
                 </div>
             

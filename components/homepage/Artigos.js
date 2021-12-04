@@ -15,8 +15,8 @@ const Artigos = props => {
     return (
         <div className={styles.wrapper}>
             <div className="container">
-                <strong>Últimas Notícias</strong>
-                <h2>Artigos <span>de Opinião</span></h2>
+                <strong>Atualidade</strong>
+                <h2>Últimas <span>notícias</span></h2>
               
                 <div className={styles.flex}>
 
@@ -39,14 +39,14 @@ const Artigos = props => {
                         <SwiperSlide>
                             <div className={styles.card}>
                                 <div className={styles.imgWrapper}>
-                                    <Image src="/assets/img/artigos/ansiedade.jpg" layout="fill" objectFit="cover" alt="terapia de casais barreiro" />
+                                    <Image src="/assets/img/artigos/seguranca.jpg" layout="fill" objectFit="cover" alt="terapia de casais barreiro" />
                                 </div>
                                 <br />
-                                <h4>A Ansiedade: normalidade ou patologia?</h4>
-                                <p>Em doses “normais” a ansiedade permite-nos melhorar o rendimento e a adaptação ao meio envolvente...</p>
+                                <h4>Segurança privada e autoproteção</h4>
+                                <p>A presente lei procede à primeira alteração à Lei n.º 34/2013, de 16 de maio, que estabelece o regime...</p>
                                 <br />
                                 <div className={styles.linkFlex}>
-                                    <a href="https://www.distritonline.pt/a-ansiedade-normalidade-ou-patologia%ef%bb%bf/" target="_blank" rel="noreferrer">Ler artigo</a>&nbsp;&nbsp;
+                                    <a href="https://dre.pt/dre/detalhe/lei/46-2019-122996202" target="_blank" rel="noreferrer">Ler artigo</a>&nbsp;&nbsp;
                                     <svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M2.08957 0L0.910431 1.17918L4.73125 5L0.910431 8.82082L2.08957 10L7.08957 5L2.08957 0Z" fill="var(--blue)" />
                                     </svg>
@@ -57,14 +57,14 @@ const Artigos = props => {
                         <SwiperSlide>
                             <div className={styles.card}>
                                 <div className={styles.imgWrapper}>
-                                    <Image src="/assets/img/artigos/economia.jpg" layout="fill" objectFit="cover" alt="psicologia barreiro" />
+                                    <Image src="/assets/img/artigos/formacao.jpg" layout="fill" objectFit="cover" alt="psicologia barreiro" />
                                 </div>
                                 <br />
-                                <h4>Ano de 2020, uma incógnita...</h4>
-                                <p>O objectivo central da economia portuguesa deverá ser o reforço da competitividade das empresas que permita...</p>
+                                <h4>Formação profissional de segurança</h4>
+                                <p>A Portaria n.º 148/2014, veio estabelecer um novo modelo de formação profissional para o pessoal...</p>
                                 <br />
                                 <div className={styles.linkFlex}>
-                                    <a href="https://www.distritonline.pt/ano-de-2020-uma-incognita/" target="_blank" rel="noreferrer">Saber mais</a>&nbsp;&nbsp;
+                                    <a href="https://dre.pt/dre/detalhe/portaria/114-2015-67072251" target="_blank" rel="noreferrer">Saber mais</a>&nbsp;&nbsp;
                                     <svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M2.08957 0L0.910431 1.17918L4.73125 5L0.910431 8.82082L2.08957 10L7.08957 5L2.08957 0Z" fill="var(--blue)" />
                                     </svg>
@@ -75,14 +75,14 @@ const Artigos = props => {
                         <SwiperSlide>
                             <div className={styles.card}>
                                 <div className={styles.imgWrapper}>
-                                    <Image src="/assets/img/artigos/emocional.jpg" layout="fill" objectFit="cover" alt="inteligência emocional barreiro" />
+                                    <Image src="/assets/img/artigos/covid.jpg" layout="fill" objectFit="cover" alt="inteligência emocional barreiro" />
                                 </div>
                                 <br />
-                                <h4>Inteligência emocional no trabalho</h4>
-                                <p>A Inteligência emocional não se dedica apenas a analisar as emoções, ela engloba a capacidade em harmonizar a ...</p>
+                                <h4>Medidas no âmbito da pandemia</h4>
+                                <p>Os indicadores de avaliação da evolução da pandemia da doença COVID-19 recomendam a adoção de medidas imediatas...</p>
                                 <br />
                                 <div className={styles.linkFlex}>
-                                    <a href="https://www.distritonline.pt/a-importancia-da-inteligencia-emocional-na-integracao-no-mercado-de-trabalho/" target="_blank" rel="noreferrer">Saber mais</a>&nbsp;&nbsp;
+                                    <a href="https://dre.pt/dre/detalhe/decreto-lei/104-2021-175043500" target="_blank" rel="noreferrer">Saber mais</a>&nbsp;&nbsp;
                                     <svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M2.08957 0L0.910431 1.17918L4.73125 5L0.910431 8.82082L2.08957 10L7.08957 5L2.08957 0Z" fill="var(--blue)" />
                                     </svg>
@@ -90,41 +90,7 @@ const Artigos = props => {
                             </div>
                         </SwiperSlide>
 
-                        <SwiperSlide>
-                            <div className={styles.card}>
-                                <div className={styles.imgWrapper}>
-                                    <Image src="/assets/img/artigos/anorexia.jpg" layout="fill" objectFit="cover" alt="inteligência emocional barreiro" />
-                                </div>
-                                <br />
-                                <h4>A Anorexia Nervosa e a Bulimia</h4>
-                                <p>São muitas as situações de âmbito fisiológico e psicológico em que o apetite pode estar alterado (diminuído ou aumentado)</p>
-                                <br />
-                                <div className={styles.linkFlex}>
-                                    <a href="https://www.distritonline.pt/perturbacoes-ao-nivel-do-apetite-a-anorexia-nervosa-e-a-bulimia/" target="_blank" rel="noreferrer">Saber mais</a>&nbsp;&nbsp;
-                                    <svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M2.08957 0L0.910431 1.17918L4.73125 5L0.910431 8.82082L2.08957 10L7.08957 5L2.08957 0Z" fill="var(--blue)" />
-                                    </svg>
-                                </div>
-                            </div>
-                        </SwiperSlide>
-
-                        <SwiperSlide>
-                            <div className={styles.card}>
-                                <div className={styles.imgWrapper}>
-                                    <Image src="/assets/img/artigos/fobia.jpg" layout="fill" objectFit="cover" alt="inteligência emocional barreiro" />
-                                </div>
-                                <br />
-                                <h4>Nomofobia uma nova doença?</h4>
-                                <p>Se nos focarmos no desenvolvimento tecnológico ocorrido nos últimos anos,  constatamos, que a maioria das funções/tarefas...</p>
-                                <br />
-                                <div className={styles.linkFlex}>
-                                    <a href="https://www.distritonline.pt/nomofobia-dependencia-do-smartphone-e-da-internet-uma-nova-doenca/" target="_blank" rel="noreferrer">Saber mais</a>&nbsp;&nbsp;
-                                    <svg width="8" height="10" viewBox="0 0 8 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M2.08957 0L0.910431 1.17918L4.73125 5L0.910431 8.82082L2.08957 10L7.08957 5L2.08957 0Z" fill="var(--blue)" />
-                                    </svg>
-                                </div>
-                            </div>
-                        </SwiperSlide>
+                     
 
                     </Swiper>
                     
