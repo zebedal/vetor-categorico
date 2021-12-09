@@ -10,7 +10,7 @@ const Sobre = props => (
     <Fragment>
         <div className="container">
             <div className={styles.curvedWrapper}>
-                <Image src="/assets/img/jose_small.jpg" width={400} height={400} layout="fixed" alt="jose vaz quintino" />
+                <Image src="/assets/img/jose_small.jpg" width={400} height={400} layout="fixed" alt="vetor categorico" />
                 <div>
                     <h2>Olá, somos a <span>Vetor Categórico</span></h2>
                     <br />

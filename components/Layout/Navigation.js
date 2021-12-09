@@ -2,7 +2,7 @@ import styles from './Navigation.module.css'
 import Link from 'next/link'
 import ChevronDown from '../svg/ChevronDown'
 import Facebook from '../svg/Facebook'
-import Linkedin from '../svg/Linkedin'
+/* import Linkedin from '../svg/Linkedin' */
 import { useEffect, useRef } from 'react'
 import Burger from '../UI/Burger'
 
@@ -40,7 +40,7 @@ const Navigation = ({toggle}) => {
                 <div className={styles.social}>
                     {!isMobile && <span>Siga-nos</span>}
                     <Facebook height={15} width={15} fill="var(--blue)" />&nbsp;&nbsp;&nbsp;
-                    <Linkedin height={15} width={15} fill="var(--blue)" />
+                    {/* <Linkedin height={15} width={15} fill="var(--blue)" /> */}
                 </div>
             </div>
         </div>

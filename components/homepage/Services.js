@@ -1,40 +1,53 @@
 import styles from './Services.module.css'
+import Link from 'next/link'
+import { Fragment } from 'react'
 
 const Services = props => (
     <div className={styles.flex}>
 
-        <div className={styles.serviceBox} >
-            <h2>Para Jovens</h2>
-            <p>Dispomos de diversos serviços direcionados aos mais jovens no âmbito da formação.</p>
-            <ul>
-                <li>Serviço 1</li>
-                <li>Serviço 2</li>
-                <li>Serviço 3</li>
-                <li>Serviço 4</li>
-            </ul>
-        </div>
+        <Link href="/curso-vigilante" passHref className="bla">
+            <div className={styles.serviceBox} >
 
-        <div className={styles.serviceBox}>
-            <h2>Para Adultos</h2>
-            <p>Dispomos de diversos serviços direcionados aos adultos e no âmbito da formação em vigilância.</p>
-            <ul>
-                <li>Formação 1</li>
-                <li>Formação 2</li>
-                <li>Formação 3</li>
-                <li>Formação 4 </li>
-            </ul>
-        </div>
+                <h2>Curso Vigilante</h2>
+                <p>Trabalhador devidamente habilitado e autorizado a exercer as funções previstas na Lei n.º46/2019 de 8 de Julho.</p>
+                <ul>
+                    <li>Vigilância de imóveis</li>
+                    <li>Controlo de entrada</li>
+                    <li>Vigilância de bens móveis</li>
 
-        <div className={styles.serviceBox}>
-            <h2>Para Seniores</h2>
-            <p>Dispomos de diversos serviços direcionados a seniores de todas as idades no âmbito da formação.</p>
-            <ul>
-                <li>Formação 1</li>
-                <li>Formação 2</li>
-                <li>Formação 3</li>
-                <li>Formação 4 </li>
-            </ul>
-        </div>
+                </ul>
+
+            </div>
+        </Link>
+
+        <Link href="/assistente-recinto-desportivo" passHref>
+            <div className={styles.serviceBox}>
+
+                <h2>Ass. Recinto Desportivo</h2>
+                <p>Trabalhador habilitado para o exercício da especialidade de assistente de Recinto Desportivo da profissão de segurança.</p>
+                <ul>
+                    <li>Competências em gestão de conflitos</li>
+                    <li>Conhecimentos em defesa pessoal</li>
+                    <li>Prevenção de segurança</li>
+
+                </ul>
+
+            </div>
+        </Link>
+
+        <Link href="/assistente-recinto-espectaculos" passHref>
+            <div className={styles.serviceBox}>
+
+                <h2>Ass. Recinto Espectáculos</h2>
+                <p>Trabalhador habilitado para o exercício da especialidade de assistente de Recinto de Espectáculos da profissão de segurança.</p>
+                <ul>
+                    <li>Competências em gestão de conflitos</li>
+                    <li>Conhecimentos em defesa pessoal</li>
+                    <li>Prevenção de segurança</li>
+
+                </ul>
+            </div>
+        </Link>
 
     </div>
 )
