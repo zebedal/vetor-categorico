@@ -2,7 +2,7 @@ import styles from './ContactForm.module.css'
 import { useRef, useState, Fragment, useEffect } from 'react';
 
 
-/* import { send } from 'emailjs-com' */
+import { send } from 'emailjs-com'
 
 
 
@@ -18,7 +18,17 @@ const ContactForm = props => {
 
 
     const handleSubmit = e => {
-    
+
+        const emailObj = {
+            to_name:'Vector Categórico',
+            name: nameRef.current.value,
+            from:emailRef.current.value,
+            contact: contactRef.current.value,
+            message: messageRef.current.value,
+        }
+
+        e.preventDefault()
+        send('service_gdvpl2t', 'template_izp2rmv', emailObj, 'user_NNX2W0lN3ZuoivbmtFlwo' ).then(res => console.log(res));
 
     }
 

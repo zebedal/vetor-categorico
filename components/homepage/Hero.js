@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 const Hero = props => (
     <div className={styles.wrapper}>
-        <Image src="/assets/img/hero2.jpg" layout="fill" objectFit="cover"  alt="clinica de psicologia" loading="eager"  />
+        <Image src="/assets/img/hero2.jpg" layout="fill" objectFit="cover"  alt="clinica de psicologia" priority />
         <div className={styles.innerContainer}>
 
             <div className={styles.content}>

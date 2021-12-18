@@ -16,7 +16,7 @@ const Avaliacao = props => (
         </Head>
 
         <div className={styles.wrapper}>
-            <Image src="/assets/img/vigilante.jpg" layout="fill" objectFit="cover" alt="vigilante montijo" />
+            <Image src="/assets/img/vigilante.jpg" layout="fill" objectFit="cover" alt="vigilante montijo" priority/>
         </div>
 
 
