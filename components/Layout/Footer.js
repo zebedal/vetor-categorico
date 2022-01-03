@@ -1,12 +1,34 @@
 import Link from "next/link";
 import styles from "./Footer.module.css";
+import Image from "next/image";
 
 const Footer = (props) => (
   <div className={styles.outerWrapper}>
     <div className={`container `}>
       <div className={styles.grid}>
         <div className={styles.footerColumn}>
-          <p>Aliqua sit velit labore laboris dolor aute et occaecat.</p>
+          <Link href="/" passHref>
+            <a href="#">
+              <Image
+                src="/assets/img/logo.svg"
+                alt="vetor categorico"
+                width="220"
+                height="45"
+              />
+            </a>
+          </Link>
+          <Image
+            src="/assets/img/psp.png"
+            alt="vetor categorico"
+            width="110"
+            height="90"
+          />
+          <Image
+            src="/assets/img/dgert.jpg"
+            alt="vetor categorico"
+            width="110"
+            height="90"
+          />
         </div>
 
         <div className={styles.footerColumn}>
