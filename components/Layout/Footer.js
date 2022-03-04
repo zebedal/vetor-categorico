@@ -29,6 +29,7 @@ const Footer = (props) => (
             width="110"
             height="90"
           />
+          <p>Autorização nº52</p>
         </div>
 
         <div className={styles.footerColumn}>
