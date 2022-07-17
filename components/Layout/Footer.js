@@ -72,6 +72,7 @@ const Footer = (props) => (
           <Link href="/media">Media</Link>
           <Link href="/avaliacao-psicologica">Formação</Link>
           <Link href="/contactos">Contactos</Link>
+          <Link href="https://livroreclamacoes.pt/Inicio/">Livro de Reclamações</Link>
         </div>
       </div>
     </div>
